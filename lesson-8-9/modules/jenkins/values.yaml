@@ -62,7 +62,7 @@ controller:
                       url('https://github.com/pavlomatchak/my-microservice-project.git')
                       credentials('github-token')
                     }
-                    branches('*/jenkins')
+                    branches('*/lesson-8-9')
                   }
                 }
                 steps {
@@ -77,7 +77,7 @@ controller:
                                   url("https://github.com/pavlomatchak/my-microservice-project.git")
                                   credentials("github-token")
                                 }
-                                branches("*/jenkins")
+                                branches("*/lesson-8-9")
                               }
                             }
                           }
