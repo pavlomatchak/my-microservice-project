@@ -5,7 +5,7 @@ applications:
     source:            
       repoURL: https://github.com/pavlomatchak/my-microservice-project.git 
       path: charts/django-app     
-      targetRevision: jenkins    
+      targetRevision: lesson-8-9    
       helm:
         valueFiles:              
           - values.yaml
