@@ -25,7 +25,7 @@ module "vpc" {
   public_subnets      = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]       
   private_subnets     = ["10.0.4.0/24", "10.0.5.0/24", "10.0.6.0/24"]       
   availability_zones  = ["eu-central-1a", "eu-central-1b", "eu-central-1c"]          
-  vpc_name            = "vpc-lesson-8-9"             
+  vpc_name            = "vpc-818682288271"             
 }
 
 # Підключаємо модуль ECR
@@ -36,7 +36,7 @@ module "ecr" {
 
 module "eks" {
   source          = "./modules/eks"          
-  cluster_name    = "eks-cluster-demo-lesson-8-9"            
+  cluster_name    = "eks-cluster-demo-818682288271"            
   subnet_ids      = module.vpc.public_subnets     
   instance_type   = "t3.medium"                   
   desired_size    = 1                             
@@ -74,7 +74,7 @@ module "jenkins" {
 variable "cluster_name" {
   description = "The name of the EKS cluster"
   type        = string
-  default     = "eks-cluster-demo-nat"
+  default     = "eks-cluster-demo-818682288271"
 }
 
 provider "kubernetes" {
