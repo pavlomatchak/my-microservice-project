@@ -40,7 +40,7 @@ spec:
       steps {
         container('kaniko') {
           sh '''
-            cd dj_project
+            cd docker
             /kaniko/executor \\
               --context `pwd` \\
               --dockerfile `pwd`/Dockerfile \\
