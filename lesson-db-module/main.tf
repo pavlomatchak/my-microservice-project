@@ -92,15 +92,15 @@ module "argo_cd" {
 
 module "rds" {
   source = "./modules/rds"
-  name                       = "matchakDB"
-  use_aurora                 = true
+  name                       = "matchakdb"
+  use_aurora                 = false
   aurora_instance_count      = 2
 
   # --- RDS-only ---
   engine                     = "postgres"
   engine_version             = "17.2"
   parameter_group_family_rds = "postgres17"
-  db_name                    = "matchakDB"
+  db_name                    = "matchakdb"
 
   # --- Aurora-only ---
   engine_cluster             = "aurora-postgresql"
