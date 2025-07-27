@@ -139,9 +139,9 @@ Aurora
 ![alt text](image-7.png)
 ![alt text](image-8.png)
 
-### Prometheus/Grafana
+## Prometheus/Grafana
 
-## Встановлення
+### Встановлення
 
 ```bash
 kubectl create namespace monitoring
@@ -175,16 +175,16 @@ helm install grafana grafana/grafana --namespace monitoring --set adminPassword=
 kubectl port-forward -n monitoring svc/grafana 3000:80
 ```
 
-## Cтан ресурсів
+### Cтан ресурсів
 ![alt text](image-9.png)
 ![alt text](image-10.png)
 ![alt text](image-11.png)
 
-## Перевірка доступності
+### Перевірка доступності
 ![alt text](image-12.png)
 ![alt text](image-13.png)
 
-## Моніторинг та перевірка метрик
+### Моніторинг та перевірка метрик
 ![alt text](image-14.png)
 
 ## Очищення ресурсів
