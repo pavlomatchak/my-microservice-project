@@ -139,6 +139,20 @@ Aurora
 ![alt text](image-7.png)
 ![alt text](image-8.png)
 
+### Prometheus/Grafana
+
+## Cтан ресурсів
+![alt text](image-9.png)
+![alt text](image-10.png)
+![alt text](image-11.png)
+
+## Перевірка доступності
+![alt text](image-12.png)
+![alt text](image-13.png)
+
+## Моніторинг та перевірка метрик
+![alt text](image-14.png)
+
 ## Очищення ресурсів
 
 ```bash
